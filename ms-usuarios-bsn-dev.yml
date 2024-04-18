@@ -1,0 +1,15 @@
+# Database
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:jdbc: postgresql://localhost:5432/tiny_tales
+    username: postgres
+    password: Gega123_
+  # JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
