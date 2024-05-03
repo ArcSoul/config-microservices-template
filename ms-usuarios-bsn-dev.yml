@@ -8,7 +8,7 @@ spring:
     platform: h2
     initialization-mode: always
     driver-class-name: org.h2.Driver
-    url: 'jdbc:h2:E:/Projects/Personal Project/CV Projects/Template-Microservicies/data/templateDB.mv.db;AUTO_SERVER=TRUE'
+    url: 'jdbc:h2:E:/Projects/Personal Project/CV Projects/Template-Microservicies/data/templateDB;AUTO_SERVER=TRUE'
     username: admin
     password: Gega123_
   # Acceso a la consola de H2
