@@ -5,7 +5,7 @@ spring:
       mode: always
   # Database
   datasource:
-    platform: h2
+    datasource-platform:
     initialization-mode: always
     driver-class-name: org.h2.Driver
     url: 'jdbc:h2:E:/Projects/Personal Project/CV Projects/Template-Microservicies/data/templateDB;AUTO_SERVER=TRUE'
@@ -20,6 +20,7 @@ spring:
         web-allow-others: false
   # JPA
   jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
     hibernate:
       ddl-auto: none
